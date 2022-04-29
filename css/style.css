@@ -1,0 +1,163 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #979797;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+  max-width: 635px;
+  margin: auto;
+}
+
+.card-showcase-one {
+  background: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-showcase-two {
+  background: #2ab3b1;
+}
+
+.card-showcase-three {
+  background: #2ab3b1c6;
+}
+
+.card-content {
+  padding: 40px 24px;
+}
+
+.card-one-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+  color: #2ab3b1;
+  margin: 0 0 24px 0;
+}
+
+.card-one-sub-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.225px;
+  color: #c0df33;
+  margin: 0 0 11px 0;
+}
+
+.card-one-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #9aa7be;
+}
+
+.card-two-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.225px;
+  color: #ffffff;
+  margin: 0 0 18px 0;
+}
+
+.card-price-rate {
+  margin: 0 0 4px 0;
+}
+
+.card-content-two {
+  padding: 40px 10px 40px 20px;
+}
+
+.card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: -0.4px;
+  color: #ffffff;
+}
+
+.card-title span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.card-duration {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+  margin: 0 0 26px 0;
+}
+
+.card-two-btn {
+  padding: 15px 89px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+  background: #c0df33;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.card-three-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.225px;
+  color: #ffffff;
+  margin: 0 0 18px 0;
+}
+
+.card-three-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.175px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+@media (max-width: 500px) {
+  body {
+    height: auto;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 50px 0;
+  }
+}
